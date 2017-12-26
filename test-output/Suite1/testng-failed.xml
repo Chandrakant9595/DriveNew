@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="Nopackage(failed)">
+    <classes>
+      <class name="com.DriveOn.consumerForm">
+        <methods>
+          <include name="testScripts"/>
+          <include name="testSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.DriveOn.consumerForm -->
+      <class name="com.DriveOn.adminActivity">
+        <methods>
+          <include name="testScripts"/>
+          <include name="testSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.DriveOn.adminActivity -->
+      <class name="com.DriveOn.commericalForm">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- com.DriveOn.commericalForm -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
